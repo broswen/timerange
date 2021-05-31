@@ -12,16 +12,19 @@ fmt.Println(range1)
 Check if two ranges intersect.
 ```go
 range1.Intersection(range2)
+// bool
 ```
 
 Get duration of ranges.
 ```go
 range1.Duration()
+// time.Duration
 ```
 
 Check if ranges are equivalent.
 ```go
 range1.Equals(range2)
+// bool
 ```
 
 
